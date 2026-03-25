@@ -42,12 +42,20 @@ img {
 
 #projetos {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
-article {
+/* Container dos projetos */
+#lista-projetos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Cards */
+#lista-projetos div {
     border: 1px solid #ccc;
     padding: 10px;
     width: 200px;
